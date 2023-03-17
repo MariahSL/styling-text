@@ -1,4 +1,3 @@
-# Styling Text
 
 
 ## Overview
