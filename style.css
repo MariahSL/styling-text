@@ -9,12 +9,16 @@ img {
    width: 100%;
 }
 
-figcaption, p.article-category, p.subtitle, p.author {
+figcaption,
+p.article-category,
+p.subtitle,
+p.author,
+time {
    font-family: "Open Sans"; 
 }
 
 p.article-category {
-   transform: uppercase;
+   text-transform: uppercase;
    font-size: .85rem;
    border-bottom: 2px solid #ff3530;
    display: inline;
@@ -26,8 +30,8 @@ h1 {
    margin: 1rem 0;
 }
 
-p.subtitle {
-   font-weight: bold;
+subtitle {
+   font-style: bold;
 }
 
 figcaption {
@@ -37,3 +41,25 @@ figcaption {
    font-style: italic;
 }
 
+a:link {
+   color: #1a1a1a;
+   text-decoration: underline;
+}
+
+a:hover {
+   color: #ff3530;
+   text-decoration: none;
+}
+
+p.author,
+time {
+   font-size: .85rem;
+}
+
+p.author {
+   margin-bottom: 0;
+}
+
+figure {
+   margin: 1.25em 0;
+}
